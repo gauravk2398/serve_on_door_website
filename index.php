@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Server At Door</title>
+</head>
+<style>
+body{
+  background-color:#C7D3D4FF;
+}
+.header{
+  width:auto;
+  height:300px;
+  left:-3%;
+  
+  background-image: url('elec2.jpg');
+  background-size:100% 100%;
+  animation:slider 10s infinite ease;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+ 
+
+}@keyframes slider{
+			0%{background-image: url('elec2.jpg');}
+			25%{background-image: url('elec.jpeg');}
+			50%{background-image: url('paint1.jpg');}
+		             75%{background-image:url('pest1.jpg');}
+                                      100%{background-image:url('carpe4.jpg');}
+                     }
+
+.s{
+	text-align: center;
+	font-size: 46px;
+	color: #5CDB95;
+	font-family:matura MT script capitals;
+
+}
+.iconDetails {
+margin-left:5%;
+float:left; 
+height:90px;
+width:90px;	
+} 
+
+.container2 {
+	width:auto;
+	height:auto;
+	padding:2%;
+	top : 20px;
+	left: 50px;
+}
+
+h3{
+    margin:0px;
+}
+ul.nav
+{
+	display: inline;
+	position: top;
+	font-size: 20px;
+	margin-left:1%;
+	float:right;
+	width : 580px;
+	right: 0;
+	top: 0;
+
+}
+ul.nav li
+{
+	display:inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left:30px;
+	font-size: 20px;
+}
+ul.nav  li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 2px 2px 2px 2px;
+}
+.table1{
+  border-radius: 25px;
+  background:#5CDB95;
+  padding: 10px; 
+  width: 1000px;
+margin-left: 10%;
+  height: 50px;
+  margin-top: -60px;
+}
+table.table1 img
+{
+	width: 70px;
+	height: 70px;
+	float : center;	
+}
+
+.content1
+{
+	margin-left: 5%;
+	width : 600px;
+	text-align: justify;
+	float : left;
+}
+.pic1
+{
+	float : right;
+	width : 20%;
+	
+
+
+}
+.pic2
+{
+	float : right;
+	height: 250px;
+	margin-top : 5%;
+	
+}
+.table2{
+  border-radius: 25px;
+  background: #5CDB95;
+  padding: 20px; 
+  width: 1200px;
+  height: 50px;
+  float: center;
+  border-collapse:separate; 
+  border-spacing:0 15px; 
+}
+table.table2 th
+{
+	font-size: 20px;
+	float: left;
+
+}
+table.table2 input{
+	border-radius: 25px;
+	display:inline-block;
+}
+table.table2 label{
+	font-size: 20px;
+	color:red;
+	
+}
+
+
+.blog
+{
+	margin-left : 10%;
+	margin-right:10%;
+	margin-top : 3%;
+}
+
+ul.nav1
+{
+	display: inline;
+	position: top;
+	font-size: 20px;
+	float: center;
+	
+}
+ul.nav1 li
+{
+	display:inline-block;
+	color: black;
+	float: center;
+	font-size: 20px;
+	margin-left:6%;
+}
+ul.nav1 li a
+{
+	color: black;
+	text-decoration: none;
+	padding: 3px 3px 3px 3px;	
+}
+table.table3
+{
+	border-collapse: separate;
+	border-spacing: 35px;
+}
+table.table3 img
+{
+	border-radius: 10%;
+}</style>
+<body>
+  <div class="header">
+	<div class="container2">
+		<div>
+			<img src='websitelogo1..jpg' class='iconDetails'>
+		</div>	
+		
+		<ul class="nav">
+			<li><a  href="home.php">Home</a></li>
+			<li><a  href="fourteen.php">Register As A Professional</a></li>
+			<li><a  href="signup.php" >Signup</a></li>
+			<li><a  href="third.php" > Login</a></li>
+		</ul>
+	</div><br><br>
+	<h1 class="s"> <b>Services At your DoorStep</b></h1>
+  </div>  
+	<p>
+		<table width="50" border="0" cellpadding="0" class="table1">
+			<tr>
+				<td align="center"  valign="center" >
+					<img src="acrepair.png" alt="description here" /><br />
+						<b><a href="REPAIR.php">AC Service & Repair
+						</a></b>
+				</td>
+				<td align="left" valign="center">
+					<img src="beauty-salon.png" alt="description here" /><br />
+						<b> <a href="blog.php"> Salon</a></b>
+				</td>
+				
+				<td align="left" valign="center">
+					<img src="tools.png" alt="description here" /><br />
+						<b><a href ="ELEC.php">Electricians</a></b>
+				</td>
+				
+				<td align="left" valign="center">
+					<img src="pestcontrol.png" alt="description here" /><br />
+						<b><a href="pest.php"> Pest Control</a></b>
+				</td>
+			</tr><tr>
+				<td align="center" valign="center">
+					<img src="repair.png" alt="description here" /><br/>
+						<b><a href="REPAIR.php"> Appliance Repair</a></b>
+				</td>
+				<td align="left" valign="center">
+					<img src="water-pipe.png" alt="description here" /><br />
+						<b><a href="PLUMber.php"> Plumber</a></b>
+				</td>
+				<td align="left" valign="center">
+					<img src="hand-saw.png" alt="description here" /><br />
+						<b><a href="CARPEN.php"> Carpenters</a></b>
+				</td>
+				<td align="left" valign="center">
+					<img src="painter.png" alt="description here" /><br />
+						<b><a href="painter.php"> Painters</a></b>
+				</td>
+			</tr>
+		</table>
+	</p>
+	<div>
+		<div class="content1">
+			<p> 
+				<h2>Why Choose Us? </h2>
+				<p> &nbsp &nbsp &nbsp We understand that trust takes years to build and forever to repair. We stand for the highest standards of skills in all our professionals. While we train we also verify the backgrounds of our professionals. Our Professionals are trained in the manner that we don't comprise with our standard.</p>
+				<p> &#10004 On time service</p>
+				<p> &#10004 Safety is our priority</p>
+				<p> &#10004 100% customer satisfaction</p>
+			</p>
+		</div>
+		<div class ="pic1">
+			<img src="time.jpg" alt="description here" height= "170" width="250"/><br />
+		</div>
+		<div class ="pic2">
+			<img src="carona.jpg" alt="description here" height= "170" width="250"/><br />
+		</div>
+	</div>
+	<table align="center" class="table2">
+	<th><b>Pick Your Service</b></th>
+	<th>    </th>
+	<tr>
+		<td><form action="">
+		  <input type="image" src="bathroom.jpg" alt="submit" width="350" height="200" align="center"></form>
+		  <br><label><a href="clean.php">Deep BathRoom Cleaning</a></label></td>
+		  &nbsp&nbsp
+	   <td><form action="">
+		<input type="image" src="pest.jpg" alt="submit" width="350" height="200" align="center"></form>
+		<br><label><a href="pest.php"> Pest Control</a><label></td>
+		<td><form action="">
+		<input type="image" src="shortcircuit.jpg" alt="submit" width="350" height="200" align="center"></form>
+		<br><label><a href="ELEC.php"> Protect your home aganist short Circuits</a><label></td>
+  	</tr>
+	<tr>
+		<td><form action="">
+		  <input type="image" src="plumbing.jpg" alt="submit" width="350" height="200" align="center"></form>
+		  <br><label><a href="PLUMber.php"> Dr. Fix for all your plumbing needs</a></label></td>
+		  &nbsp&nbsp
+	   <td><form action="">
+		<input type="image" src="acrepairing.jpg" alt="submit" width="350" height="200" align="center"></form>
+		<br><label><a href="REPAIR.php"> Summer Ready</a><label></td>
+		<td><form action="">
+		<input type="image" src="hygenic.jpg" alt="submit" width="350" height="200" align="center"></form>
+		<br><label><a href="aboutSalon.php"> Hygenic Products For Body Care</a><label></td>
+  	</tr>
+   </table></p>	
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second Page</title>
+	<style type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		header{
+			display: block;
+		}
+		
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 20px;
+            border: 1px ;
+            box-shadow: 10px 10px 5px grey;
+            border-radius: 5px;
+        }
+        *{
+	        box-sizing: border-box;
+        }
+        .div2{
+        	margin-left: 40px;}  
+   
+    .container{
+    	text-align: center;
+        
+       
+        margin-bottom: 115px
+        ;
+    }
+    .container1{
+    	margin-top: -310px;
+    	text-align: center;
+    	color: beige;
+    }
+.a1{
+	text-decoration-color: transparent;
+	color: blue;
+	margin-left: 130px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#603F83FF;
+  color: white;
+  border-color: transparent;
+  box-shadow: 10px 10px 5px grey;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 100px;
+  }
+  .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.i{
+	width: 30px;
+
+
+}
+.i1{
+	width: 30px;
+}
+.i2{
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<div>
+<h1>Testimonials</h1>
+<h2 style="color: red">What our clients say about us</h2>
+</div>
+<div class="row">
+  <div class="column">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p> 
+    <img src="gaurav.jpg.jpg" alt="Customer Name" width="45px">
+    <h3><b>Gaurav Kumar</b><br><b>Gaurav@</b></h3>
+  </div>
+  
+  <div class="column">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+     <img src="priyanka.jpg.jpg" alt="Customer Name" width="50px">
+    <h3><b>Priyanka Singh</b><br><b>Priyankas@</b></h3>
+     </div>
+   <div class="column">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+     <img src="jatin.jpg.jpg" alt="Customer Name" width="65px">
+    <h3><b>Jatin Kumar</b><br><b>Jatin@</b></h3>
+  </div>
+</div>
+   <div class="bg">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5CDB95" fill-opacity="1" d="M0,224L48,202.7C96,181,192,139,288,133.3C384,128,480,160,576,186.7C672,213,768,235,864,213.3C960,192,1056,128,1152,112C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+	 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5CDB95" fill-opacity="1" d="M0,224L48,202.7C96,181,192,139,288,133.3C384,128,480,160,576,186.7C672,213,768,235,864,213.3C960,192,1056,128,1152,112C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+	<h1 class="container1">HAVE QUERIES? Professional helpers are just one click away</h1>
+	<form action="" method="POST" class="container">
+  <label for="phone" ><b>Enter your phone number:</b></label><br><br>
+  <input type="tel" id="phone" placeholder="We'll contact you" name="phone" required><br><br>
+  <input type="submit" name="submit">
+      </form>
+    </div>
+
+
+      <div class="div2">
+      <table>
+      <tr>
+        <td><a href="aboutus.php" class="a1"><b>About Us</b></a></td>
+        <td><a  href="review.php" class="a1"><b>Review</b></a></td>
+        
+          <td><a  href="terms.php" class="a1"><b>Terms & Conditions</b></a></td>
+           <td><a  href="privacy.php" class="a1"><b>Privacy Policy</b></a></td>
+            <td><a  href="contact.php" class="a1"><b>Contact Us</b></a></td>
+      </tr>
+    </table>
+     </div>
+
+<footer>
+ <div class="row1">
+  <div class="column1">
+    <h2>Services at your door</h2>
+  </div>
+  <div class="column1">
+    <h2>Serve on Door Pvt. Ltd</h2>
+  </div>
+  <div class="column1">
+  	<a href="https://www.instagram.com/"><img src="insta.jpg" class="i"></a>
+  	<a href="https://www.linkedin.com/signup/cold-join?trk=guest_homepage-basic_nav-header-join"><img src="linkdin.jpg" class="i1"></a>
+  	<a href="https://www.facebook.com/"><img src="fac.jpg" class="i2"></a>
+    </div>
+
+</div>
+  
+</footer>
+
+</body>
+</html>
+<?php
+$con=mysqli_connect("localhost","root","","serve");
+
+if (!$con) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+
+if(isset($_POST['submit']))
+{
+ $contact=$_POST['phone'];
+$res=mysqli_query($con,"INSERT INTO CONTACTYOU(contact) VALUES ('$contact')");
+
+if($res)
+{
+
+  echo "data inserted successfuly";
+} 
+
+  else {
+  
+    echo "unsuccessfull data";
+  
+  
+         }
+  mysqli_close($con);
+}
+?>
+
+
+
+
+
+
