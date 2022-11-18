@@ -1,0 +1,176 @@
+body{
+  background-color:#C7D3D4FF;
+}
+.header{
+  width:auto;
+  height:300px;
+  left:-3%;
+  
+  background-image: url('homeimg1.jpg');
+  background-size:100% 100%;
+  animation:slider 10s infinite ease;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
+ 
+
+}@keyframes slider{
+			0%{background-image: url('homeimg1.jpg');}
+			35%{background-image: url('carpe3.jpg');}
+			75%{background-image: url('elec.jpeg');}
+		}
+
+.s{
+	text-align: center;
+	font-size: 46px;
+	color: silver;
+	font-family:matura MT script capitals;
+
+}
+.iconDetails {
+margin-left:5%;
+float:left; 
+height:90px;
+width:90px;	
+} 
+
+.container2 {
+	width:auto;
+	height:auto;
+	padding:2%;
+	top : 20px;
+	left: 50px;
+}
+
+h3{
+    margin:0px;
+}
+ul.nav
+{
+	display: inline;
+	position: top;
+	font-size: 20px;
+	margin-left:1%;
+	float:right;
+	width : 580px;
+	right: 0;
+	top: 0;
+
+}
+ul.nav li
+{
+	display:inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left:30px;
+	font-size: 20px;
+}
+ul.nav  li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 2px 2px 2px 2px;
+}
+.table1{
+  border-radius: 25px;
+  background:#5CDB95;
+  padding: 10px; 
+  width: 1000px;
+margin-left: 10%;
+  height: 50px;
+  margin-top: -60px;
+}
+table.table1 img
+{
+	width: 70px;
+	height: 70px;
+	float : center;	
+}
+
+.content1
+{
+	margin-left: 5%;
+	width : 600px;
+	text-align: justify;
+	float : left;
+}
+.pic1
+{
+	float : right;
+	width : 20%;
+	
+
+
+}
+.pic2
+{
+	float : right;
+	height: 250px;
+	margin-top : 5%;
+	
+}
+.table2{
+  border-radius: 25px;
+  background: white;
+  padding: 20px; 
+  width: 1200px;
+  height: 50px;
+  float: center;
+  border-collapse:separate; 
+  border-spacing:0 15px; 
+}
+table.table2 th
+{
+	font-size: 20px;
+	float: left;
+}
+table.table2 input{
+	border-radius: 25px;
+	display:inline-block;
+}
+table.table2 label{
+	font-size: 20px;
+	color:red;
+}
+
+
+.blog
+{
+	margin-left : 10%;
+	margin-right:10%;
+	margin-top : 3%;
+}
+
+ul.nav1
+{
+	display: inline;
+	position: top;
+	font-size: 20px;
+	float: center;
+	
+}
+ul.nav1 li
+{
+	display:inline-block;
+	color: black;
+	float: center;
+	font-size: 20px;
+	margin-left:6%;
+}
+ul.nav1 li a
+{
+	color: black;
+	text-decoration: none;
+	padding: 3px 3px 3px 3px;	
+}
+table.table3
+{
+	border-collapse: separate;
+	border-spacing: 35px;
+}
+table.table3 img
+{
+	border-radius: 10%;
+}
